@@ -69,7 +69,12 @@ def index():
             return render_template('results.html', reviews=reviews) # showing the review to the user
         except:
             return 'something is wrong'
-
+# git init
+# git add .
+# git commit -m "initial commit"
+# heroku create
+# git remote -v
+# git push heroku master
 
 if __name__ == "__main__":
     app.run(port=8000,debug=True) # running the app on the local machine on port 8000
